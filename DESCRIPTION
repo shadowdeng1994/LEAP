@@ -1,11 +1,25 @@
 Package: LEAP
-Title: What the Package Does (One Line, Title Case)
+Title: A novel phylogeny-based computational framework for inferring the transcriptional states of internal nodes.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(
+    person(given = "Shanjun",family = "Deng",email = "dengshj8@mail.sysu.edu.cn",role = c("cre","aut","fnd")),
+    person(given = "Xionglei",family = "He",role = c("aut","fnd")),
+    person(given = "Zhan",family = "Liu",role = c("aut","ctb"))
+    )
+Description: Implements LEAP (LUG-encoded ancestral projection), a phylogeny-
+    based computational framework designed to impute the transcriptional states 
+    of unobserved ancestral internal nodes within a reconstructed cell lineage 
+    tree. By combining cell lineage tracing with single-cell RNA sequencing 
+    (scRNA-seq), the package leverages a set of lineage-committed upregulated 
+    genes (LUGs) to map terminal cell transcriptomes back onto the internal 
+    nodes of the developmental phylogeny. This enables lineage-informed, 
+    longitudinal analysis of cell state dynamics throughout development. The 
+    method facilitates the discovery of subtle fate specializations and hidden 
+    developmental states that lack prominent transcriptional differentiation, 
+    supporting the construction of lineage-resolved cell atlases in complex 
+    organisms.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0

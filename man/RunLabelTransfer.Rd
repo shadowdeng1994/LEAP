@@ -45,5 +45,5 @@ A dataframe of transferred result.
 Run label transfer from reference data to query data, both of which were binarized by LUG.
 }
 \examples{
-RunLabelTransfer(Var.InternalMatrix,Var.ReferenceMatrix,Data.Ref_metadata$lineage)
+Var.Predictions <- RunLabelTransfer(Var.InternalMatrix,Var.ReferenceMatrix,Data.Ref_metadata$lineage)
 }

@@ -16,7 +16,7 @@
 #' @returns A dataframe of transferred result.
 #' @export
 #'
-#' @examples RunLabelTransfer(Var.InternalMatrix,Var.ReferenceMatrix,Data.Ref_metadata$lineage)
+#' @examples Var.Predictions <- RunLabelTransfer(Var.InternalMatrix,Var.ReferenceMatrix,Data.Ref_metadata$lineage)
 RunLabelTransfer <- function(QueryMatrix=NULL,RefMatrix=NULL,TransferLabel,QuerySeurat=NULL,RefSeurat=NULL,Anchors=NULL,nPC=30,Verbose=FALSE,DirOut="LEAPOutput/",SaveObject=TRUE){
   if(is.null(Anchors)){
     if(is.null(QuerySeurat)|is.null(RefSeurat)){
