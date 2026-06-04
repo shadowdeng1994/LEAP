@@ -153,6 +153,11 @@ All results are saved to the `LEAPOutput/` directory when `SaveObject = TRUE`:
 - `Var.Predictions.rds` — label transfer predictions
 - `Var.PredictedState.rds` — final predicted states mapped onto the phylogeny
 
-## License
+## Contributing
+### Contributors
+Shanjun Deng, shadowdeng1994@gmail.com.
 
-MIT
+## Citations
+When using TarCA please cite:
+
+We're on track to publish something really exciting! **Star the repo and stay tuned!​** :smile:
