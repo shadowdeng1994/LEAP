@@ -1,6 +1,6 @@
 Package: LEAP
 Title: A novel phylogeny-based computational framework for inferring the transcriptional states of internal nodes.
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     c(
     person(given = "Shanjun",family = "Deng",email = "dengshj8@mail.sysu.edu.cn",role = c("cre","aut","fnd")),
@@ -23,9 +23,12 @@ Depends:
     R (>= 4.0.0)
 Imports:
     TarCA.beta,
-    tidyverse,
+    dplyr,
+    tidyr,
+    tibble,
+    magrittr,
     parallel,
-    castor
+    Seurat
 Suggests: 
     quarto,
     knitr,
