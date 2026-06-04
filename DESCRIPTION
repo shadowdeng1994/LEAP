@@ -19,7 +19,19 @@ Description: Implements LEAP (LUG-encoded ancestral projection), a phylogeny-
     developmental states that lack prominent transcriptional differentiation, 
     supporting the construction of lineage-resolved cell atlases in complex 
     organisms.
+Depends:
+    R (>= 4.0.0)
+Imports:
+    TarCA.beta,
+    tidyverse,
+    parallel,
+    castor
+Suggests: 
+    quarto,
+    knitr,
+    rmarkdown
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
+VignetteBuilder: quarto
