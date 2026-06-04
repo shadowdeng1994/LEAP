@@ -8,6 +8,8 @@ LEAP integrates cell lineage tracing with single-cell RNA sequencing (scRNA-seq)
 
 The method facilitates the discovery of subtle fate specializations and hidden developmental states that lack prominent transcriptional differentiation, supporting the construction of lineage-resolved cell atlases in complex organisms.
 
+<img width="1924" height="849" alt="image" src="https://github.com/user-attachments/assets/f922c00b-b1d6-4bf4-b22e-2dd76ca3b3a2" />
+
 ## Installation
 
 ```r
