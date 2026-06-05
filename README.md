@@ -1,6 +1,6 @@
-# LEAP
+# LUG-Encoded Ancestral Projection (LEAP)
 
-**L**UG-**E**ncoded **A**ncestral **P**rojection — a phylogeny-based computational framework for inferring the transcriptional states of unobserved internal nodes from cell phylogenies via lineage-specific upregulated genes (LUGs).
+ A phylogeny-based computational framework for inferring the transcriptional states of unobserved internal nodes from cell phylogenies via lineage-specific upregulated genes (LUGs).
 
 ## Overview
 
